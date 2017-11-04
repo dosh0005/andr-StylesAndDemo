@@ -10,35 +10,38 @@
 	tools:context="com.sriyanksiddhartha.stylesandthemesdemo.MainActivity">
 
 	<TextView
+		style="@style/AppSmallText"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:layout_marginTop="40dp"
 		android:text="Small Text"/>
 
 	<TextView
+		style="@style/AppMediumText"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:text="Medium Text"/>
 
 	<TextView
+		style="@style/AppLargeText"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:text="Large Text"/>
 
 	<TextView
+		style="@style/AppExtraLargeText"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:text="Extra Large Text"/>
 
 	<TextView
+		style="@style/AppExtraLargeTextLight"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:text="Extra Large Light"/>
 
 	<RadioButton
-		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"
-		android:text="My Radio Button"/>
+		style="@style/MyRadioButton"/>
 
 	<TextView
 		android:id="@+id/txvGradient"
@@ -53,6 +56,11 @@
 		android:layout_height="wrap_content"
 		android:textSize="50sp"
 		android:textStyle="bold"
-		android:text="Shadow"/>
+		android:text="Shadow"
+		android:textColor="#616161"
+		android:shadowColor="#5000"
+		android:shadowDx="10"
+		android:shadowDy="10"
+		android:shadowRadius="10"/>
 
 </LinearLayout>
